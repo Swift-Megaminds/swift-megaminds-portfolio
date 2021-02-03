@@ -1,0 +1,43 @@
+<div class="member-card">
+    {% for item in site.data.member_info %}
+    <div class="card">
+      <div class="image">
+        <img src="/assets/img/memberProfile/{{ item.profilePic }}">
+      </div>
+      <div class="info">
+        <p class="title">{{ item.name }}</p>
+        {% if item.twitter %}
+          <div class="social">
+            <a href="{{ item.twitter }}">
+              <img src="/assets/img/icons/twitter.png">
+            </a>
+          </div>
+        {% endif %}
+        {% if item.linkedin %}
+          <div class="social">
+            <a href="{{ item.linkedin }}">
+              <img src="/assets/img/icons/linkedin.png">
+            </a>
+          </div>
+        {% endif %}
+        {% if item.page-name %}
+          <div class="social">
+            <a href="{{ item.github }}">
+              <img src="/assets/img/icons/github.png">
+            </a>
+          </div>
+        {% endif %}
+        {% if item.externalLink %}
+          <div class="social">
+            <a href="{{ item.externalLink }}">
+              <img src="/assets/img/icons/globe.png">
+            </a>
+          </div>
+        {% endif %}
+        <p class="description">{{ item.description }}</p>
+      </div>
+    </div>
+    {% endfor %}
+    </a>
+    
+  </div>
