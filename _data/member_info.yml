@@ -5,38 +5,58 @@
   github: "https://twitter.com/SuhaniChawla9"
   description: "Suhani is a third year undergrad student from IGDTUW India. She is a web and flutter developer and loves the thrill of hackathons. She likes reading fiction novels and watching TV Shows"
 
-- name: "Suhani Chawla22"
-  profilePic: 
-  twitter: 
-  linkedin:
-  github:
-  description:
+- name: "Atreya Majumdar"
+  profilePic: "Atreya_profile.png"
+  twitter: "#"
+  linkedin: "https://www.linkedin.com/in/atreyamajumdar/"
+  github: "https://github.com/atreyamaj"
+  description: "A Machine Learning maniac who's trying to learn new things! An Electronics major who loves software way too much :P Don't hesitate to reach out to me on my social media handles!"
 
-- name: "Suhani Chawla22"
-  profilePic: 
-  twitter: 
-  linkedin:
-  github:
-  description:
+- name: "Sachin Soman"
+  profilePic: "sachin.jpg"
+  twitter: "https://twitter.com/ssachinsoman95"
+  linkedin: "https://www.linkedin.com/in/sachin-soman/"
+  github: "https://github.com/sachsom95"
+  description: "I am an aspiring software developer and a graduate in Electronics and Instrumentation. I am currently based in Dublin, the city of Guinness and Craic and originally from Kerala, India. I love coding in Python. I love working on any engineering problems from formula cars to writing 'Hello,World' in Javascript."
 
-- name: "Suhani Chawla22"
-  profilePic: 
-  twitter: 
-  linkedin:
-  github:
-  description:
+- name: "Alex Wilkes"
+  profilePic: "aleximage.png"
+  twitter: "#"
+  linkedin: "https://www.linkedin.com/in/alexwilkes/"
+  github: "https://github.com/wilkesalex"
+  description: "I'm part of a university startup incubator and I've joined MLH to learn the best engineering approaches"
 
-- name: "Suhani Chawla22"
-  profilePic: 
-  twitter: 
-  linkedin:
-  github:
-  description:
+- name: "Aman Sharma"
+  profilePic: "Aman.jpg"
+  twitter: "https://twitter.com/amansharma2910"
+  linkedin: "https://www.linkedin.com/in/amansharma2910/"
+  github: "https://github.com/amansharma2910"
+  description: "A Deep Learning enthusiast by passion and a tech blogger by hobby. I love all things tech!"
 
-- name: "Suhani Chawla22"
-  profilePic: 
-  twitter: 
-  linkedin:
-  github:
-  description:
+- name: "Amala Abraham"
+  profilePic: "IMG-20201223-WA0064.jpg"
+  twitter: "https://twitter.com/amala_abraham"
+  linkedin: "https://www.linkedin.com/in/amalaabraham3/"
+  github: "https://github.com/amalaabraham"
+  description: "Web developer who is passionate about solving real-world problems and an explorer who loves exploring new things and places."
 
+- name: "Apratim Mahata"
+  profilePic: "IMG_20190828_131910.jpg"
+  twitter: "https://twitter.com/ApratimMahata"
+  linkedin: "https://www.linkedin.com/in/apratim-mahata/"
+  github: "https://github.com/Apra487"
+  description: "Just a guy learning to code. Loves to make random cool things, mostly using JavaScript."
+
+- name: "Benyam Seifu"
+  profilePic: "benyam.jpg"
+  twitter: "https://twitter.com/benyam_7" 
+  linkedin: "https://www.linkedin.com/in/benyam-seifu/"
+  github: "https://github.com/benyam7" 
+  description: "Hi, I am Benyam a mobile and full-stack web developer. I put myself to the world in such a way that the rest of the world says 'Wow that's cool!'. Super pumped to be here!"
+
+- name: "Sameer Kashyap"
+  profilePic: "20210124_165831_3.jpg"
+  twitter: "https://twitter.com/Sameeerkashyap"
+  linkedin: "https://www.linkedin.com/in/sameer-kashyap-083a89184"
+  github: "https://github.com/Sameerkash"
+  description: "Hey! I'm Sameer from Bangalore, India. I love contributing to open source, and have deep interests in full stack development and cloud infrastructure. I'm also a DSC lead for my campus and love helping the student community grow more. So excited to be here and hoping to learn, build and colloborate so much more with an amazing group of people! ✨✨ "
