@@ -1,3 +1,19 @@
 <div class="featured_projects">
-
+    <div class="section-heading">
+    <h2>Megaminds At Work!</h2>
 </div>
+    <div class="container">
+        {% for item in site.data.projects %}
+        <div class="card-content">
+          <div class="card-photo" style="background-image: url('{{ site.baseurl }}/assets/img/projects/{{item.image}}')"></div>
+          <div class="card-text">
+            <h2>{{item.name}}</h2>
+            <p>{{item.shortDescr}}</p>
+            <a href="{{item.github}}">View Project</a>
+          </div>
+        </div>
+        <br/><br/>
+        {% endfor %}
+      </div>
+</div>
+

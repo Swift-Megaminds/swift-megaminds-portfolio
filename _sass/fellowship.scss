@@ -1,0 +1,45 @@
+.fellowship{
+    padding: 50px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.fellow{
+    width:40%;
+    justify-content: space-evenly;
+}
+
+.fellowship-title-wrapper{
+    text-align: center;
+}
+
+.fellowship-text-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.fellowship-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;;
+    text-align: center;
+}
+
+.leader-img{
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 800px) {
+	.fellowship-wrapper{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .fellow{
+        width: 100%;
+    }
+    
+}

@@ -3,8 +3,12 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 @import 'hero';
 @import 'variables';
+@import 'projects';
 @import 'timeline';
 @import 'members';
+@import 'leader';
+@import 'fellowship';
+
 
 
 *, *::after, *::before {
@@ -20,3 +24,8 @@ body {
     background-color: $background-color;
   }
 
+.section-heading{
+    text-align: center;
+    margin: 25px;
+    font-size: 25px;
+}

@@ -1,0 +1,18 @@
+.leader{
+    padding: 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.leader-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+
+.leader-img{
+    border-radius: 50%;
+}

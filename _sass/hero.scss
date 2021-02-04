@@ -2,8 +2,11 @@
 
 .hero {
 	background-color: $herobackground;
+	background-size: cover;
 	min-height: 100vh;
 	display: -webkit-box;
+	min-width: 100vw;
+	overflow: hidden;
 	display: -ms-flexbox;
 	display: flex;
 	-webkit-box-orient: vertical;

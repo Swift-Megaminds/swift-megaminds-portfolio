@@ -1,9 +1,9 @@
-- name:
-  members:
-  pageLink:
-  date:
-  shortDescr:
-  deployed:
-  github:
-  featured:
-  
+- name: "Our Portfolio"
+  shortDescr: "The Swift Megaminds Portfolio Page! The project showcases the pod members, our pod leader and our projects!"
+  github: "https://github.com/Swift-Megaminds/swift-megaminds-portfolio"
+  image: "megaminds.png"
+
+- name: "Our Portfolio"
+  shortDescr: "The Swift Megaminds Portfolio Page! The project showcases the pod members, our pod leader and our projects!"
+  github: "https://github.com/Swift-Megaminds/swift-megaminds-portfolio"
+  image: "megaminds.png"
