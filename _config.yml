@@ -9,3 +9,4 @@ sass:
 collections:
   posts:
     output          : true
+theme: jekyll-theme-cayman
