@@ -5,9 +5,9 @@ layouts_dir         : _layouts
 data_dir            : _data
 includes_dir        : _includes
 
-baseurl: "/" 
-url: "/swift-megaminds-portfolio" 
-github_username:  swift-megaminds
+baseurl: "/swift-megaminds-portfolio" 
+url: ""
+github_username: swift-megaminds
 
 
 sass:
