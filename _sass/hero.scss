@@ -10,7 +10,6 @@
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
-    
     .hero-text {
 		margin: auto auto;
 		padding: 20px;
@@ -19,6 +18,8 @@
 
 	h1, a {
 		font-family: $hero_font;
+		color: $title_color;
+		text-align: left;
 		font-weight: 400;
 	}
 	
@@ -42,9 +43,8 @@
 
 	a {
 		text-decoration: none;
+	    cursor: default;
 	}
-
-
 
 	.wrap {
 		color: $wrap_color;
