@@ -1,3 +1,16 @@
-<div class="fellowship">
-
+{% for item in site.data.fellowship_info %}
+<div class="fellowship_details">
+    <div class="fellowship_details_row">
+        <div class="fellowship_details_img">
+            <img src="{{ site.baseurl }}/assets/img/{{ item.pod_logo }}">
+            <img src="{{ site.baseurl }}/assets/img/{{ item.fellowship_logo }}">
+        </div>
+        <div class="fellowship_details_column">
+            <div class="fellowship_details_content">
+             <h2>{{ item.title }}</h2>
+             <p>{{ item.details }}</p>
+            </div>
+        </div>
+    </div>
 </div>
+{% endfor %}
