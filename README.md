@@ -1,6 +1,13 @@
-Use the following command to launch the website:
 
-`bundle exec jekyll serve --livereload`
+## Development
+
+If you want to test it locally or add some new features, run the below commands. Make sure to have Ruby and Bundler installed.
+
+```
+bundle install
+bundle exec jekyll serve
+```
+
 
 ## Docker
 
