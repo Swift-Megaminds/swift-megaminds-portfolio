@@ -3,30 +3,34 @@
     <h1>Meet the Megaminds</h1>
     <div class="cols">
       {% for item in site.data.member_info %}
-        <div class="col" ontouchstart="this.classList.toggle('hover');">
-          <div class="container">
-            <div class="front" style="background-image: url('{{ site.baseurl }}/assets/img/members/{{item.profilePic}}')">
-              <div class="inner" id="front-view">
+      <div class="col" ontouchstart="this.classList.toggle('hover');">
+        <div class="container">
+          <div class="front" style="background-image: url('{{ site.baseurl }}/assets/img/members/{{item.profilePic}}')">
+            <div class="inner" id="front-view">
               <div class="module">
                 <h2 class="megamind-name">{{item.name}}</h2>
               </div>
-              </div>
             </div>
-            <div class="back">
-              <div class="inner">
-                <p class="member-description">{{item.description}}</p>
-                <br/>
-                <p class="member-description">Connect!</p>
-                <span>
-                  <a target=_blank href={{item.linkedin}} ><i class="fab fa-linkedin"></i></a>
-                  <a target=_blank href={{item.github}} ><i class="fab fa-github-square"></i></a>
-                  <a target=_blank href={{item.twitter}}><i class="fab fa-twitter-square"></i></a>
-                </span>
-              </div>
+          </div>
+          <div class="back">
+            <div class="inner">
+              <p class="member-description">
+                {{item.description}}
+              </p>
+              <br />
+              <p class="member-description">
+                Connect!
+              </p>
+              <span>
+                <a target=_blank href={{item.linkedin}}><i class="fab fa-linkedin"></i></a>
+                <a target=_blank href={{item.github}}><i class="fab fa-github-square"></i></a>
+                <a target=_blank href={{item.twitter}}><i class="fab fa-twitter-square"></i></a>
+              </span>
             </div>
           </div>
         </div>
-        {% endfor %}
       </div>
+      {% endfor %}
     </div>
   </div>
+</div>

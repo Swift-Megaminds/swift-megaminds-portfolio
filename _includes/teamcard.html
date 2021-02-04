@@ -1,0 +1,41 @@
+<div style="padding:25px;display: flex;flex-wrap: wrap;">
+{% for item in site.data.member_info %}
+<div class="card">
+    <div class="card__resting-container">
+      <img src="http://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/images/2012/TRANSFORMATIONS/2004-adam-levine-400_0.jpg?itok=f34d2kK4">
+      <div class="card__resting-container__name-wrap">
+        <h4 class="name">Styles B.</h4>
+      </div>
+    </div> <!-- close resting container -->
+    <div class="card__overlay">
+      <div class="card__overlay__detail-wrapper">
+        <div class="detail-group">
+          <h5 class="detail-group__label">Words to Live By</h5>
+          <p class="detail-group__text">Tomorrow is today somewhere, maybe.</p>
+        </div>
+        <div class="detail-group">
+          <h5 class="detail-group__label">Areas of Focus</h5>
+          <p class="detail-group__text">Good Ideas, Account Management, Book Recommendations</p>
+        </div>
+        <a class="contact-link" href="#put_bio_link_here">More Info</a>
+      </div>
+    </div><!-- close overlay -->
+  </div><!-- close card -->
+  {% endfor %}
+</div>
+<style>
+@media only screen and (max-width: 768px) {
+    .card{
+        flex: 0 0 50%;
+        
+        padding:10px;
+    }
+  }
+  @media only screen and (max-width: 671px) {
+    .card{
+        flex: 0 0 100%;
+        
+        padding:10px;
+    }
+  }
+</style>
