@@ -23,34 +23,12 @@
 }
 
 .leader_row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.leader_image {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 40%;
-    padding:20px;
     text-align: center;
-    vertical-align: middle;
-}
-
-.leader_column {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
     padding:20px;
-    text-align: center;
 }
 
-.leader_image img{
+.leader_row img{
     max-width: 100%;
     height: auto;
     border-radius: 50%;
-    vertical-align: middle;
 }
