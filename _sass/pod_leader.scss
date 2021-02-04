@@ -1,0 +1,34 @@
+@import 'variables';
+
+.leader  {
+        width: 100%;
+        padding: 60px 15px;
+        margin-right: auto;
+        margin-left: auto;
+        background: linear-gradient(#1c1e26,#0a0a0a);
+
+        h2 {
+            font-family: $hero_font;
+            font-weight: 400;
+            font-size:3em;
+            color: $var_color;
+            margin-bottom:10px;
+        }
+        
+        p {
+            font-family: $font_family;
+            font-size:2em;
+            color: $wrap_color;
+        }
+}
+
+.leader_row {
+    text-align: center;
+    padding:20px;
+}
+
+.leader_row img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
