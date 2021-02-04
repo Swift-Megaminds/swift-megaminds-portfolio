@@ -1,3 +1,43 @@
-<div class="timeline">
+<div class="timeline-container">
+    <section class="cd-horizontal-timeline">
+        <div class="timeline">
+            <div class="events-wrapper">
+                <div class="events">
+                    <ol>
+
+                        {% for item in site.data.timeline %}
+                        <li>
+                            <a href="#0" data-date="{{ item.date }}" {% if forloop.index == 1 %} class="selected" {% endif %}>{{ item.day_month }}</a>
+                        </li>
+                        {% endfor %}                       
+                    
+                    </ol>
     
+                    <span class="filling-line" aria-hidden="true"></span>
+                </div> <!-- .events -->
+            </div> <!-- .events-wrapper -->
+                
+            <ul class="cd-timeline-navigation">
+                <li><a href="#0" class="prev inactive">Prev</a></li>
+                <li><a href="#0" class="next">Next</a></li>
+            </ul> <!-- .cd-timeline-navigation -->
+        </div> <!-- .timeline -->
+    
+        <div class="events-content">
+            <ol>
+
+                {% for item in site.data.timeline %}
+
+                <li {% if forloop.index == 1 %} class="selected" {% endif %} data-date="{{ item.date }}">
+                    <h2>{{ item.title }}</h2>
+                    <em>{{ item.day_month_year }}</em>
+                    <p>{{ item.description }}</p>
+                </li>
+
+                {% endfor %}
+
+            </ol>
+        </div> <!-- .events-content -->
+    </section>
 </div>
+
