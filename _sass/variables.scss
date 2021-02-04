@@ -1,11 +1,12 @@
-$herobackground:  #1c1e26;
-$hero_font:  'Space Mono', monospace;
+// hero
+$herobackground: #1c1e26;
+$hero_font: "Space Mono", monospace;
 
-$var_color: #F87669;
-$var_name_color:  #0ea87f;
+$var_color: #f87669;
+$var_name_color: #0ea87f;
 $var-value_color: #fcb350;
 $title_color: white;
-$wrap_color: #EED0D4;
+$wrap_color: #eed0d4;
 
 // General
 $font_family: "Open Sans", sans-serif;
@@ -18,8 +19,8 @@ $timeline-event-font-size-multipler: 1;
 $timeline-title-font-size-multiplier: 1;
 $timeline-date-font-size-multiplier: 1;
 $timeline-description-font-size-multiplier: 1;
-$timeline-accent-color: #0099ff; 
-$timeline-muted-color: #dfdfdf; 
+$timeline-accent-color: #0099ff;
+$timeline-muted-color: #dfdfdf;
 $timeline-event-color: #383838;
 $timeline-description-color: #959595;
 $timeline-linear-gradient-color: rgba(248, 248, 248, 0);

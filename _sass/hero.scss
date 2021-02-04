@@ -1,53 +1,49 @@
-@import 'variables';
+@import "variables";
 
 .hero {
-	background-color: $herobackground;
-	min-height: 100vh;
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-    
-    .hero-text {
-		margin: auto auto;
-		padding: 20px;
-		color: $title_color;
-	}
+  background-color: var(--background);
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 
-	h1, a {
-		font-family: $hero_font;
-		font-weight: 400;
-	}
-	
-	p {
-		font-family: $font_family;
-	}
-	
+  .hero-text {
+    margin: auto auto;
+    padding: 20px;
+    color: var(--primary-color);
+  }
 
-	.var {
-		color: $var_color;
-	}
+  h1,
+  a {
+    font-family: $hero_font;
+    font-weight: 400;
+  }
 
-	.var-name {
-		color: $var_name_color;
-	}
+  p {
+    font-family: $font_family;
+  }
 
-	.var-value {
-		color: $var-value_color;
-	}
+  .var {
+    color: $var_color;
+  }
 
+  .var-name {
+    color: $var_name_color;
+  }
 
-	a {
-		text-decoration: none;
-	}
+  .var-value {
+    color: $var-value_color;
+  }
 
+  a {
+    text-decoration: none;
+  }
 
-
-	.wrap {
-		color: $wrap_color;
-    }
-    
+  .wrap {
+    color: var(--secondary-color);
+  }
 }

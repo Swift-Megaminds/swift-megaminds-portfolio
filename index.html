@@ -3,22 +3,13 @@
 
 <!DOCTYPE html>
 <html lang="en">
-    {% include header.html %}
-<body>
-    {% include hero.html %}
+  {% include header.html %}
+  <body>
+    {% include nav_bar.html %} {% include hero.html %} {% include
+    fellowship_info.html %} {% include pod_leader.html %} {% include
+    members.html %} {% include diverse.html %} {% include featured_projects.html
+    %} {% include timeline.html %} {% include footer.html %}
 
-    {% include fellowship_info.html %}
-    
-    {% include pod_leader.html %}
-
-    {% include members.html %}
-
-    {% include diverse.html %}
-
-    {% include featured_projects.html %}
-
-    {% include timeline.html %}
-
-    {% include footer.html %}
-</body>
+    <script src="{{ site.baseurl }}/assets/js/navBar.js"></script>
+  </body>
 </html>
