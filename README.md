@@ -8,6 +8,11 @@ bundle install
 bundle exec jekyll serve
 ```
 
+The website is access locally at the below address
+
+```
+http://localhost:4000/swift-megaminds-portfolio/
+```
 
 ## Docker
 
