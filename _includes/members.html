@@ -1,9 +1,9 @@
 <div class="wrapper-parent">
   <div class="wrapper">
     <h1>Meet the Megaminds</h1>
-    <div class="cols">
+    <div class="cols_wrapper">
       {% for item in site.data.member_info %}
-        <div class="col" ontouchstart="this.classList.toggle('hover');">
+        <div class="col_wrapper" ontouchstart="this.classList.toggle('hover');">
           <div class="container">
             <div class="front" style="background-image: url('{{ site.baseurl }}/assets/img/members/{{item.profilePic}}')">
               <div class="inner" id="front-view">
