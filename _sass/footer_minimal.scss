@@ -9,7 +9,7 @@ $font_color:#686b6f;
 #break_line{
 //  background-color: $font_color;
     border: none;
-     width: 100%;
+    width: 100%;
     border: 0;
     height: 1px;
     background: #333;
@@ -33,42 +33,6 @@ $font_color:#686b6f;
     background: linear-gradient(90deg, rgb(17, 17, 17) 50%, rgb(36, 36, 39) 80%);
 }
 
-.typing > *{
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typingAnim 5s steps(50) 2;
-    color:rgb(240, 240, 240);
-
-  }
-  .typing > *::after{
-    content: ". .";
-    display: block;
-    position: absolute;
-    top: 1em;
-    left: .35em;
-  }
-  .typing > *::before{
-    content: "";
-    position: absolute;
-    display: block;
-    top: 2.1em;
-    left: .25em;
-    width: 1em;
-    height: .1em;
-    border-radius: 100%;
-    background: #fff;
-    animation: typingSpeak .5s steps(2);
-    animation-iteration-count: 5;
-  }
-  @keyframes typingAnim{
-    from { width: 0 }
-    to { width: 100% }
-  }
-  @keyframes typingSpeak{
-    0% { width: 1em; height: .1em }
-    100% { width: 1em; height: .5em; }
-  }
-
 .footercolor {
     font-size:13px;color:#9e9c9c;
 }
@@ -76,6 +40,6 @@ $font_color:#686b6f;
 .connect {
     font-size:20px;color:#6b6969;
 }
-//svg:not(:root){overflow:hidden;}
+
 
 #svg-top{width:100%;display:block;position:absolute;left:0;top:-1px;}
