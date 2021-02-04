@@ -2,7 +2,7 @@
 
 .leader  {
         width: 100%;
-        padding: 15px;
+        padding: 50px;
         margin-right: auto;
         margin-left: auto;
         background: linear-gradient(#1c1e26,#0a0a0a);
@@ -23,25 +23,12 @@
 }
 
 .leader_row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.leader_column {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-    padding:20px;
     text-align: center;
+    padding:20px;
 }
 
-.leader_column img{
+.leader_row img{
     max-width: 100%;
     height: auto;
     border-radius: 50%;
-    vertical-align: middle;
 }
