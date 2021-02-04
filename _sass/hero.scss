@@ -13,7 +13,9 @@
     .hero-text {
 		margin: auto auto;
 		padding: 20px;
+		font-size: 2vw !important;
 		color: $title_color;
+		font-family: $hero_font;
 	}
 
 	h1, a {
