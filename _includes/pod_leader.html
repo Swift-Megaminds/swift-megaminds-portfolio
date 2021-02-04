@@ -1,10 +1,10 @@
 {% for item in site.data.pod_leader %}
 <div class="leader">
     <div class="leader_row">
-        <div class="leader_left">
-            <img class="rounded-circle img-fluid" src="{{ site.baseurl }}/assets/img/{{ item.pic }}">
+        <div class="leader_column">
+            <img src="{{ site.baseurl }}/assets/img/{{ item.pic }}">
         </div>
-        <div class="leader_right">
+        <div class="leader_column">
             <div class="leader_content">
              <h2>{{ item.name }}</h2>
              <p>{{ item.bio }}</p>
