@@ -5,7 +5,7 @@
 }
 
 .cd-horizontal-timeline a {
-  color: var(--secondary-color);
+  color: $timeline-accent-color;
   text-decoration: none;
 }
 .cd-horizontal-timeline {
@@ -51,26 +51,26 @@
   left: 0;
   background-image: -webkit-linear-gradient(
     left,
-    var(--on-background),
-    var(--on-background)
+    $background-color,
+    $timeline-linear-gradient-color
   );
   background-image: linear-gradient(
     to right,
-    var(--on-background),
-    var(--on-background)
+    $background-color,
+    $timeline-linear-gradient-color
   );
 }
 .cd-horizontal-timeline .events-wrapper::after {
   right: 0;
   background-image: -webkit-linear-gradient(
     right,
-    var(--on-background),
-    var(--on-background)
+    $background-color,
+    $timeline-linear-gradient-color
   );
   background-image: linear-gradient(
     to left,
-    var(--on-background),
-    var(--on-background)
+    $background-color,
+    $timeline-linear-gradient-color
   );
 }
 .cd-horizontal-timeline .events {
