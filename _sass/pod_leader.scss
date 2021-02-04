@@ -2,7 +2,7 @@
 
 .leader  {
         width: 100%;
-        padding: 15px;
+        padding: 60px 15px;
         margin-right: auto;
         margin-left: auto;
         background: white;
@@ -45,9 +45,8 @@
     text-align: left;
 }
 
-.leader_column img{
+.leader_row img{
     max-width: 100%;
     height: auto;
     border-radius: 50%;
-    vertical-align: middle;
 }
