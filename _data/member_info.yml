@@ -1,8 +1,42 @@
-- name:
-  profilePic:
-  twitter:
+- name: "Suhani Chawla"
+  profilePic: "Suhani.jpeg"
+  twitter: "https://twitter.com/SuhaniChawla9"
+  linkedin: "https://www.linkedin.com/in/suhani-chawla-891919171/"
+  github: "https://twitter.com/SuhaniChawla9"
+  description: "Suhani is a third year undergrad student from IGDTUW India. She is a web and flutter developer and loves the thrill of hackathons. She likes reading fiction novels and watching TV Shows"
+
+- name: "Suhani Chawla22"
+  profilePic: 
+  twitter: 
   linkedin:
   github:
-  externalLink:
+  description:
+
+- name: "Suhani Chawla22"
+  profilePic: 
+  twitter: 
+  linkedin:
+  github:
+  description:
+
+- name: "Suhani Chawla22"
+  profilePic: 
+  twitter: 
+  linkedin:
+  github:
+  description:
+
+- name: "Suhani Chawla22"
+  profilePic: 
+  twitter: 
+  linkedin:
+  github:
+  description:
+
+- name: "Suhani Chawla22"
+  profilePic: 
+  twitter: 
+  linkedin:
+  github:
   description:
 
