@@ -23,3 +23,7 @@ body {
     color: $color;
     background-color: $background-color;
 }
+
+html {
+    scroll-behavior: smooth;
+  }

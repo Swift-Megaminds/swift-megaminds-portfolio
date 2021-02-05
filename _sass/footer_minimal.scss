@@ -22,8 +22,6 @@ $font_color:#686b6f;
     color: $font_color;
     &:hover{
         padding:0px 2px 0px 2px;
-        background-color: #bbbaba;
-        color: rgb(240, 240, 240);
         transition: background-color .2s;
         transition: padding .1s;
     }
