@@ -2,6 +2,7 @@
 
 .hero {
 	background-color: $herobackground;
+	background-size: cover;
 	min-height: 100vh;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -52,4 +53,8 @@
 		color: $wrap_color;
     }
     
+}
+
+.hero-icon{
+	margin:5px;
 }

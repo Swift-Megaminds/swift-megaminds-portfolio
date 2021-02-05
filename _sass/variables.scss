@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
 $herobackground:  #1c1e26;
 $hero_font:  'Space Mono', monospace;
+$heading_font: 'Montserrat';
 
 $var_color: #F87669;
 $var_name_color:  #0ea87f;
@@ -8,9 +10,10 @@ $title_color: white;
 $wrap_color: #EED0D4;
 
 // General
-$font_family: "Open Sans", sans-serif;
+$font_family: 'Comfortaa', cursive;
 $color: #383838;
 $background-color: #f8f8f8;
+$heading_color:black;
 
 // Timeline
 $timeline-global-font-size-multiplier: 0.625;
@@ -26,4 +29,4 @@ $timeline-linear-gradient-color: rgba(248, 248, 248, 0);
 
 // fellowship serction vars
 
-$fsh-section-bgcolor: black;
+$fsh-section-bgcolor: rgb(27, 25, 25);
