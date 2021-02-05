@@ -2,23 +2,25 @@
 
 .fellowship_details  {
         width: 100%;
-        padding: 15px 15px;
+        padding: 2.5vw 2.5vw;
         margin-right: auto;
         margin-left: auto;
-        background: linear-gradient(#1c1e26, #0a0a0a);
-
+        background-color: #000000;
+        background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
         h2 {
             font-family: $hero_font;
             font-weight: 400;
-            font-size:3em;
+            font-size:calc(5px + 2.5vw);
             color: $var_color;
             margin-bottom:10px;
+            text-align: center;
         }
         
         p {
             font-family: $font_family;
-            font-size:2em;
+            font-size:calc(1px + 2.5vw);
             color: $wrap_color;
+            text-align: justify;
         }
 }
 
@@ -34,8 +36,8 @@
 .fellowship_details_img {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
-    max-width: 15%;
-    padding:20px;
+    max-width: 25%;
+    padding:5px;
     margin: auto;
     vertical-align: top;
 }
@@ -45,7 +47,6 @@
     flex: 0 0 50%;
     max-width: 50%;
     padding:20px;
-    text-align: center;
 }
 
 .fellowship_details_img img{
