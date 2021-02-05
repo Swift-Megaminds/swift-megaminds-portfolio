@@ -2,9 +2,8 @@
 {% for item in site.data.member_info %}
 <div class="card">
     <div class="card__resting-container">
-      <img src="http://cdn-img.instyle.com/sites/default/files/styles/684xflex/public/images/2012/TRANSFORMATIONS/2004-adam-levine-400_0.jpg?itok=f34d2kK4">
-      <div class="card__resting-container__name-wrap">
-        <h4 class="name">Styles B.</h4>
+        <img src="{{ site.baseurl }}/assets/img/members/{{item.profilePic}}">      <div class="card__resting-container__name-wrap">
+        <h4 class="name">{{item.name}}</h4>
       </div>
     </div> <!-- close resting container -->
     <div class="card__overlay">

@@ -1,0 +1,17 @@
+<div class="navbar">
+    <nav>
+        <h3 class="brand">Swift Megaminds</h3>
+        <div class="navItems">
+            {% for item in site.data.navbar %}
+            <a href={{item.link}}>
+                <span class="navItem">
+                    {{item.name}}
+                </span>
+            </a>
+            {%endfor %}
+        </div>
+        <div>
+           <h3> sas</h3> 
+        </div>
+    </nav>
+</div>
