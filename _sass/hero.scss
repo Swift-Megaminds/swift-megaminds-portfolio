@@ -10,6 +10,8 @@
 	-webkit-box-direction: normal;
 	-ms-flex-direction: column;
 	flex-direction: column;
+	min-width: 100vw;
+	overflow: hidden;
     .hero-text {
 		margin: auto auto;
 		padding: 20px;
@@ -21,6 +23,7 @@
 		color: $title_color;
 		text-align: left;
 		font-weight: 400;
+		font-size: calc(5px + 2.5vw);
 	}
 	
 	p {
