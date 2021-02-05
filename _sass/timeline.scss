@@ -284,7 +284,8 @@
 .cd-horizontal-timeline .events-content h2 {
   font-weight: bold;
   font-size: $timeline-global-font-size-multiplier * $timeline-title-font-size-multiplier * 2.6rem;
-  font-family: "Playfair Display", serif;
+  // font-family: "Playfair Display", serif;
+  font-family: $font_family;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -302,6 +303,10 @@
 }
 .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
   line-height: 1.6;
+}
+.section-heading{
+  font-family: $heading_font;
+  text-align: center;
 }
 @media only screen and (min-width: 768px) {
   .cd-horizontal-timeline .events-content h2 {
