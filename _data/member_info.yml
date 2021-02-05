@@ -7,7 +7,6 @@
 
 - name: "Atreya Majumdar"
   profilePic: "Atreya.png"
-  twitter: "#"
   linkedin: "https://www.linkedin.com/in/atreyamajumdar/"
   github: "https://github.com/atreyamaj"
   description: "A Machine Learning maniac who's trying to learn new things!"
@@ -21,7 +20,6 @@
 
 - name: "Alex Wilkes"
   profilePic: "Alex.png"
-  twitter: "#"
   linkedin: "https://www.linkedin.com/in/alexwilkes/"
   github: "https://github.com/wilkesalex"
   description: "I'm part of a university startup incubator and I've joined MLH to learn the best engineering approaches"
@@ -63,7 +61,6 @@
 
 - name: "Lucas Lobo"
   profilePic: "Lucas.jpeg"
-  twitter: "#" 
   linkedin: "https://www.linkedin.com/in/lobo-lucas/"
   github: "https://github.com/LucasLobo" 
   description: "Lucas is finishing his Master's Degree in Computer Science Engineering in Instituto Superior Técnico, Lisbon, Portugal. He is developing a Business Intelligence system for his University for his Master's thesis"
@@ -99,7 +96,6 @@
 
 - name: "Saumya Gandhi"
   profilePic: "Saumya.jpg"
-  twitter: "#" 
   linkedin: "https://www.linkedin.com/in/saumya-g-975323a1/"
   github: "https://github.com/saum7800" 
   description: "Just another CSE student. I enjoy solving real-world problems using Machine Learning and NLP. Also love chess!"
