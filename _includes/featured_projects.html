@@ -1,3 +1,52 @@
-<div class="featured_projects">
+
+<div class="featured_projects"><br/><br/>
+    <h2
+    class="text-center text-white mt-4 mb-3 mr-3 ml-4">
+        Megaminds at Work
+    </h2>
+    
+
+    <!-- cards -->
+    <div class="container  card_con ">
+
+        <div class="text-center">
+
+            <div class="card-deck no-gutters">
+                {% for item in site.data.projects %} {% if item.featured %}
+                <div class=" col-8  col-md-8 col-lg-3  mr-3 ml-3">
+                    <div class="card h-80 mb-4">
+                        <div class="card-header">
+                            <h5 class="card-title m-0 p-0 text-secondary">{{item.name}}</h5>
+                        </div>
+                        <div class="card-body text-left">
+                            <p class="card-text">{{ item.shortDescr }}</p>
+                            <span class="font-lead-base font-weight-bold text-muted">{{item.date | date_to_string}}</span>
+                        </div>
+                        <div class="card-footer">
+                            <a href="{{ item.github}}" class="btn"><img src="https://raw.githubusercontent.com/ksdkamesh99/swift-megaminds-portfolio/master/assets/img/icons/github.png" alt=""></a>
+                            {% if item.deployed %}
+                            <a href="{{ item.deployed }}" class="btn"><img src="https://raw.githubusercontent.com/ksdkamesh99/swift-megaminds-portfolio/master/assets/img/icons/globe.png" alt=""></a>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br> {% endif %} {% endfor %}
+
+
+            </div>
+
+        </div>
+    </div>
 
 </div>
+
+<!-- Standard button -->
+
+</div>
+<style>
+    .featured_projects{
+background-color: #253969;
+padding-top:'25px'
+    }
+</style>
