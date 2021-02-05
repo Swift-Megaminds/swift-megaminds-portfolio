@@ -81,7 +81,7 @@ $font-weight-bolder: 900 !default;
     &-footer {
         padding-top: 1rem;
         padding-bottom: 1rem;
-    }
+    } 
     &-header,
     &-footer {
         transition: .5s ease;
@@ -202,4 +202,9 @@ $font-weight-bolder: 900 !default;
 
 .featured_projects {
     background-color: $herobackground;
+    padding: 2rem;
+}
+
+.featured_projects h2 {
+    padding-bottom: 2rem;
 }
