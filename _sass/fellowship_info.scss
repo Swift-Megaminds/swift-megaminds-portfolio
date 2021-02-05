@@ -5,15 +5,15 @@
         padding: 2.5vw 2.5vw;
         margin-right: auto;
         margin-left: auto;
-        background-color: #000000;
-        background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+        background-color: $fsh-section-bgcolor;
+        // background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
         h2 {
             font-family: $hero_font;
             font-weight: 400;
             font-size:calc(5px + 2.5vw);
             color: $var_color;
             margin-bottom:10px;
-            text-align: center;
+            text-align: left;
         }
         
         p {
@@ -33,12 +33,19 @@
     margin-left: -15px;
 }
 
+#fshp-logo {
+    margin-bottom: 3vh;
+}
+
 .fellowship_details_img {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 25%;
     padding:5px;
     margin: auto;
+    margin-top: 3vh;
+    margin-right: 5%;
+    margin-left: 15%;
     vertical-align: top;
 }
 
@@ -46,11 +53,12 @@
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
-    padding:20px;
+    padding: 20px 20px 20px 0;
 }
 
 .fellowship_details_img img{
     max-width: 100%;
     height: auto;
     vertical-align: top;
+    float: right;
 }
