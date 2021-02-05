@@ -54,12 +54,41 @@
   github: "https://github.com/benyam7" 
   description: "Hi, I am Benyam a mobile and full-stack web developer. I put myself to the world in such a way that the rest of the world says 'Wow that's cool!'. Super pumped to be here!"
 
+- name: "Sai Durga Kamesh Kota"
+  profilePic: "Kamesh.jpg"
+  twitter: "https://twitter.com/ksdkamesh99" 
+  linkedin: "https://www.linkedin.com/in/saidurgakameshkota/"
+  github: "https://github.com/ksdkamesh99" 
+  description: "Kamesh passionate software developer and a tech blogger who always tries to learn new things in trending technologies like AI and Cloud."
+
+- name: "Lucas Lobo"
+  profilePic: "Lucas.jpeg"
+  twitter: "#" 
+  linkedin: "https://www.linkedin.com/in/lobo-lucas/"
+  github: "https://github.com/LucasLobo" 
+  description: "Lucas is finishing his Master's Degree in Computer Science Engineering in Instituto Superior Técnico, Lisbon, Portugal. He is developing a Business Intelligence system for his University for his Master's thesis"
+
 - name: "Sameer Kashyap"
   profilePic: "Sameer.jpg"
   twitter: "https://twitter.com/Sameeerkashyap"
   linkedin: "https://www.linkedin.com/in/sameer-kashyap-083a89184"
   github: "https://github.com/Sameerkash"
   description: "Hey, I'm sameer from Bangalore, India! Love open source and communities. Here to explore, build and colloborate with awesome people. ✨ "
+
+- name: "Mayra Pastor Valdivia"
+  profilePic: "saumya_photo.jpg"
+  twitter: "https://twitter.com/notenoughmayras" 
+  linkedin: "https://www.linkedin.com/in/mayrapastorvaldivia/"
+  github: "https://github.com/MyrrhDev" 
+  description: "Last year computer engineering student with a background in psychology, currently working on implementing an end-to-end ML predictive solution to a classification problem. Loves music, drums and playing video games."
+
+- name: "Hakim Beldjoudi"
+  profilePic: "Hakeem.jpg"
+  twitter: "https://twitter.com/BeldjoudiHakim" 
+  linkedin: "https://www.linkedin.com/in/hbfree/"
+  github: "https://github.com/hbFree" 
+  description: "I'm a 2nd year CS Student at ESI Algiers, NLP enthusiast and a Classical&Jazz Guitar Player!"
+
 
 - name: "Abir Pal"
   profilePic: "Abir.jpg"
@@ -68,42 +97,10 @@
   github: "hhttps://github.com/imabp" 
   description: "I work on on improving user experiences, generating, analysing and improvising on meaningful data, and love to solve scaling problems. Along with that, I love to play piano."
 
-
-- name: "Sai Durga Kamesh Kota"
-  profilePic: "Kamesh.jpg"
-  twitter: "https://twitter.com/ksdkamesh99" 
-  linkedin: "https://www.linkedin.com/in/saidurgakameshkota/"
-  github: "https://github.com/ksdkamesh99" 
-  description: "I am a passionate software developer and a tech blogger who always tries to learn new things in trending technologies like AI and Cloud."
-
-- name: "Lucas Lobo"
-  profilePic: "Lucas.jpeg"
-  twitter: "#" 
-  linkedin: "https://www.linkedin.com/in/lobo-lucas/"
-  github: "https://github.com/LucasLobo" 
-  description: "Lucas is finishing his Master's Degree in Computer Science Engineering in Instituto Superior Técnico, Lisbon, Portugal. He is developing a Business Intelligence system for his University for his Master's thesis. He loves travelling and taking pictures."
-
 - name: "Saumya Gandhi"
   profilePic: "Saumya.jpg"
   twitter: "#" 
   linkedin: "https://www.linkedin.com/in/saumya-g-975323a1/"
   github: "https://github.com/saum7800" 
   description: "Just another CSE student. I enjoy solving real-world problems using Machine Learning and NLP. Also love chess!"
-
-- name: "Mayra"
-  profilePic: "saumya_photo.jpg"
-  twitter: "#" 
-  linkedin: "https://www.linkedin.com/in/saumya-g-975323a1/"
-  github: "https://github.com/saum7800" 
-  description: "Saumya is a third-year undergraduate student from VNIT in India. He enjoys solving real-world problems with the help of Machine Learning and NLP. He also loves playing chess and reading non-fiction books."
-
-
-
-- name: "Hakeem"
-  profilePic: "saumya_photo.jpg"
-  twitter: "#" 
-  linkedin: "https://www.linkedin.com/in/saumya-g-975323a1/"
-  github: "https://github.com/saum7800" 
-  description: "Saumya is a third-year undergraduate student from VNIT in India. He enjoys solving real-world problems with the help of Machine Learning and NLP. He also loves playing chess and reading non-fiction books."
-
 
