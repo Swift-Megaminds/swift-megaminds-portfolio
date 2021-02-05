@@ -213,20 +213,20 @@ h1 .member-header {
     top: 90%;
 }
 
-@media screen and (max-width: 64rem) {
-    .col {
+@media only screen and (max-width: 1024px) {
+    .col_wrapper {
         width: calc(33.333333% - 2rem);
     }
 }
 
-@media screen and (max-width: 48rem) {
-    .col {
+@media only screen and (max-width: 768px) {
+    .col_wrapper {
         width: calc(50% - 2rem);
     }
 }
 
-@media screen and (max-width: 32rem) {
-    .col {
+@media only screen and (max-width: 512px) {
+    .col_wrapper {
         width: 100%;
         margin: 0 0 2rem 0;
     }
