@@ -2,7 +2,7 @@
 
 .leader  {
         width: 100%;
-        padding: 60px 15px;
+        padding: 2.5vw 2.5vw;
         margin-right: auto;
         margin-left: auto;
         background: linear-gradient(#1c1e26,#0a0a0a);
@@ -10,17 +10,16 @@
         h2 {
             font-family: $hero_font;
             font-weight: 400;
-            font-size:3em;
+            font-size:calc(5px + 2vw);
             color: $var_color;
-            margin-bottom:10px;
-            padding: 20px 0px;
+            text-align: center;
         }
         
         p {
             font-family: $font_family;
-            font-size:2em;
+            font-size:calc(2px + 1.5vw);
             color: $wrap_color;
-            padding: 0px 10rem;
+            text-align: center;
         }
 }
 
@@ -31,7 +30,7 @@
 
 .leader_row img{
     max-width: 100%;
-    height: auto;
+    height: 25vw;
     border-radius: 50%;
     padding: 20px 0px;
 }
