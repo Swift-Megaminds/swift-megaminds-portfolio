@@ -3,8 +3,11 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
     {% include header.html %}
 <body>
+    {% include nav_bar.html %}
+
     {% include hero.html %}
 
     {% include fellowship_info.html %}
@@ -20,5 +23,7 @@
     {% include timeline.html %}
 
     {% include footer_minimal.html %}
+
+    <script src="{{ site.baseurl }}/assets/js/navBar.js"></script>
 </body>
 </html>
