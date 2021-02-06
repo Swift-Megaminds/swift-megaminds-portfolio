@@ -5,8 +5,9 @@ layouts_dir: _layouts
 data_dir: _data
 includes_dir: _includes
 
-baseurl: "swift-megaminds-portfolio"
-url: "/"
+baseurl: "/swift-megaminds-portfolio"
+
+url: "https://601dd27583c3147cc41bd8b2--flamboyant-mcnulty-801b37.netlify.app"
 # github_username: swift-megaminds
 
 sass:
