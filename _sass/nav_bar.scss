@@ -7,7 +7,6 @@ html {
 .nav-bar-wrapper {
   display: flex;
   justify-content: space-around;
-
 }
 
 /* Navigation */
@@ -24,7 +23,7 @@ html {
   background: #ffffff80;
 }
 
-a {
+nav-links-wrapper a {
   margin-right: 25px;
   color: $nav-color;
   text-decoration: none;
@@ -32,13 +31,11 @@ a {
   font-weight: bold;
 }
 
-a:hover,
-a:focus {
+nav-links-wrapper a:hover,
+nav-links-wrapper a:focus {
   color: $nav-color;
-  border-bottom: 3px solid;
   padding-left: 10px;
   transition: 3ms;
-  // padding-left: 10px;
 }
 
 .fas {
@@ -55,18 +52,28 @@ a:focus {
   justify-content: space-around;
 }
 
+/* Slide transitions */
+.slideUp {
+  -webkit-transform: translateY(-100px);
+  transform: translateY(-100px);
+  transition: transform 0.5s ease-out;
+}
+
+.slideDown {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  transition: transform 0.5s ease-out;
+}
+
 @media only screen and (max-width: 500px) {
   .fas {
     font-size: 20px;
   }
 }
 
-
-
 @media only screen and (max-width: 400px) {
   .fas {
     font-size: 15px;
-
   }
   .nav {
     letter-spacing: 10px;
