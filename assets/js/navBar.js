@@ -2,7 +2,6 @@ const toggleSwitch = document.getElementById("toggle-checkbox");
 const nav = document.querySelector(".nav");
 const toggleIcon = document.getElementById("toggle-icon");
 
-console.log(nav);
 var new_scroll_position = 0;
 var last_scroll_position;
 
