@@ -1,4 +1,4 @@
-@import 'variables';
+@import "variables";
 
 .hero {
 	background-color: $herobackground;
@@ -53,8 +53,4 @@
 		color: $wrap_color;
     }
     
-}
-
-.hero-icon{
-	margin:5px;
 }

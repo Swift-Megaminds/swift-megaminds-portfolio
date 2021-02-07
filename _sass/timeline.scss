@@ -1,4 +1,4 @@
-@import 'variables';
+@import "variables";
 
 .timeline-container {
   font-size: $timeline-global-font-size-multiplier * 1.6rem;
@@ -17,7 +17,7 @@
 }
 .cd-horizontal-timeline::before {
   /* never visible - this is used in jQuery to check the current MQ */
-  content: 'mobile';
+  content: "mobile";
   display: none;
 }
 .cd-horizontal-timeline.loaded {
@@ -37,9 +37,10 @@
   margin: 0 40px;
   overflow: hidden;
 }
-.cd-horizontal-timeline .events-wrapper::after, .cd-horizontal-timeline .events-wrapper::before {
+.cd-horizontal-timeline .events-wrapper::after,
+.cd-horizontal-timeline .events-wrapper::before {
   /* these are used to create a shadow effect at the sides of the timeline */
-  content: '';
+  content: "";
   position: absolute;
   z-index: 2;
   top: 0;
@@ -48,13 +49,29 @@
 }
 .cd-horizontal-timeline .events-wrapper::before {
   left: 0;
-  background-image: -webkit-linear-gradient( left , $background-color, $timeline-linear-gradient-color);
-  background-image: linear-gradient(to right, $background-color, $timeline-linear-gradient-color);
+  background-image: -webkit-linear-gradient(
+    left,
+    $background-color,
+    $timeline-linear-gradient-color
+  );
+  background-image: linear-gradient(
+    to right,
+    $background-color,
+    $timeline-linear-gradient-color
+  );
 }
 .cd-horizontal-timeline .events-wrapper::after {
   right: 0;
-  background-image: -webkit-linear-gradient( right , $background-color, $timeline-linear-gradient-color);
-  background-image: linear-gradient(to left, $background-color, $timeline-linear-gradient-color);
+  background-image: -webkit-linear-gradient(
+    right,
+    $background-color,
+    $timeline-linear-gradient-color
+  );
+  background-image: linear-gradient(
+    to left,
+    $background-color,
+    $timeline-linear-gradient-color
+  );
 }
 .cd-horizontal-timeline .events {
   /* this is the grey line/timeline */
@@ -97,7 +114,8 @@
   bottom: 0;
   z-index: 2;
   text-align: center;
-  font-size: $timeline-global-font-size-multiplier * $timeline-event-font-size-multipler * 1.3rem;
+  font-size: $timeline-global-font-size-multiplier *
+    $timeline-event-font-size-multipler * 1.3rem;
   padding-bottom: 15px;
   color: $timeline-event-color;
   /* fix bug on Safari - text flickering while timeline translates */
@@ -109,7 +127,7 @@
 }
 .cd-horizontal-timeline .events a::after {
   /* this is used to create the event spot */
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   right: auto;
@@ -129,7 +147,7 @@
   transition: background-color 0.3s, border-color 0.3s;
 }
 .no-touch .cd-horizontal-timeline .events a:hover::after {
-  background-color:$timeline-accent-color;
+  background-color: $timeline-accent-color;
   border-color: $timeline-accent-color;
 }
 .cd-horizontal-timeline .events a.selected {
@@ -148,17 +166,17 @@
   }
   .cd-horizontal-timeline::before {
     /* never visible - this is used in jQuery to check the current MQ */
-    content: 'desktop';
+    content: "desktop";
   }
 }
 
 .timeline ul {
-    list-style: none;
+  list-style: none;
 }
 
 .cd-timeline-navigation a {
   /* these are the left/right arrows to navigate the timeline */
-  
+
   position: absolute;
   z-index: 1;
   top: 50%;
@@ -183,7 +201,7 @@
 }
 .cd-timeline-navigation a::after {
   /* arrow icon */
-  content: '';
+  content: "";
   position: absolute;
   height: 16px;
   width: 16px;
@@ -262,17 +280,20 @@
   -o-transform: translateX(0);
   transform: translateX(0);
 }
-.cd-horizontal-timeline .events-content li.enter-right, .cd-horizontal-timeline .events-content li.leave-right {
+.cd-horizontal-timeline .events-content li.enter-right,
+.cd-horizontal-timeline .events-content li.leave-right {
   -webkit-animation-name: cd-enter-right;
   -moz-animation-name: cd-enter-right;
   animation-name: cd-enter-right;
 }
-.cd-horizontal-timeline .events-content li.enter-left, .cd-horizontal-timeline .events-content li.leave-left {
+.cd-horizontal-timeline .events-content li.enter-left,
+.cd-horizontal-timeline .events-content li.leave-left {
   -webkit-animation-name: cd-enter-left;
   -moz-animation-name: cd-enter-left;
   animation-name: cd-enter-left;
 }
-.cd-horizontal-timeline .events-content li.leave-right, .cd-horizontal-timeline .events-content li.leave-left {
+.cd-horizontal-timeline .events-content li.leave-right,
+.cd-horizontal-timeline .events-content li.leave-left {
   -webkit-animation-direction: reverse;
   -moz-animation-direction: reverse;
   animation-direction: reverse;
@@ -295,13 +316,15 @@
   margin: 10px auto;
 }
 .cd-horizontal-timeline .events-content em::before {
-  content: '- ';
+  content: "- ";
 }
 .cd-horizontal-timeline .events-content p {
-  font-size: $timeline-global-font-size-multiplier * $timeline-description-font-size-multiplier * 1.4rem;
+  font-size: $timeline-global-font-size-multiplier *
+    $timeline-description-font-size-multiplier * 1.4rem;
   color: $timeline-description-color;
 }
-.cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
+.cd-horizontal-timeline .events-content em,
+.cd-horizontal-timeline .events-content p {
   line-height: 1.6;
 }
 .section-heading{
@@ -310,13 +333,16 @@
 }
 @media only screen and (min-width: 768px) {
   .cd-horizontal-timeline .events-content h2 {
-    font-size: $timeline-global-font-size-multiplier * $timeline-title-font-size-multiplier * 7rem;
+    font-size: $timeline-global-font-size-multiplier *
+      $timeline-title-font-size-multiplier * 7rem;
   }
   .cd-horizontal-timeline .events-content em {
-    font-size: $timeline-global-font-size-multiplier * $timeline-date-font-size-multiplier * 2rem;
+    font-size: $timeline-global-font-size-multiplier *
+      $timeline-date-font-size-multiplier * 2rem;
   }
   .cd-horizontal-timeline .events-content p {
-    font-size: $timeline-global-font-size-multiplier * $timeline-description-font-size-multiplier * 1.8rem;
+    font-size: $timeline-global-font-size-multiplier *
+      $timeline-description-font-size-multiplier * 1.8rem;
   }
 }
 

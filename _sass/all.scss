@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap");
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 @import 'hero';
 @import 'variables';
@@ -8,7 +8,7 @@
 @import 'pod_leader';
 @import 'members';
 @import 'fellowship_info';
-
+@import 'nav_bar.scss';
 *,
 *::after,
 *::before {
