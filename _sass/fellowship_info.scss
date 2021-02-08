@@ -10,15 +10,14 @@
         h2 {
             font-family: $heading_font;
             font-weight: 400;
-            font-size:calc(5px + 2.5vw);
-            color: $var_color;
-            margin-bottom:10px;
-            text-align: left;
+            font-size: calc(4px + 2.5vw);
+            color: #F87669;
+            margin-bottom: calc(4px + 2vw);
         }
         
         p {
             font-family: $font_family;
-            font-size: calc(1px + 2vw);
+            font-size: calc(4px + 1.3vw);
             color: #EED0D4;
             text-align: left;
         }
@@ -41,12 +40,11 @@
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 25%;
-    padding:5px;
+    padding: 40px;
     margin: auto;
-    margin-top: 3vh;
-    margin-right: 5%;
-    margin-left: 15%;
+    // margin-top: 3vh;
     vertical-align: top;
+    margin-right: 10%;
 }
 
 .fellowship_details_column {
@@ -62,3 +60,9 @@
     vertical-align: top;
     float: right;
 }
+
+@media only screen and (max-width: 600px) {
+    .fellowship_details_img {
+        padding: 2px; 
+    } 
+  }
