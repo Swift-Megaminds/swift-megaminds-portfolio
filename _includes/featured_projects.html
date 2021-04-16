@@ -13,11 +13,12 @@
                 <div class=" col-12  col-md-8 col-lg-3">
                     <div class="card h-80 mb-4">
                         <div class="card-header">
-                            <h5 class="card-title m-0 p-0 text-secondary">{{item.name}}</h5>
+                            <h5 class="card-title m-0 p-0 text-secondary"><a href="{{item.pageLink}}">{{item.name}}</a></h5>
                         </div>
                         <div class="card-body text-left">
+                            <p class="card-text">Members: {{ item.members }}</p>
                             <p class="card-text">{{ item.shortDescr }}</p>
-                            <span class="font-lead-base font-weight-bold text-muted">{{item.date | date_to_string}}</span>
+                            <span class="font-lead-base font-weight-bold text-muted">{{item.date}}</span>
                         </div>
                         <div class="card-footer">
                             <a href="{{ item.github}}" class="btn"><img src="https://raw.githubusercontent.com/ksdkamesh99/swift-megaminds-portfolio/master/assets/img/icons/github.png" alt=""></a>

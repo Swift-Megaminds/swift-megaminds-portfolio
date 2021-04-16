@@ -1,72 +1,61 @@
-- name: Tensorgram
-  members:
-  pageLink:
-  date: 29-10-2020
-  shortDescr: A real-time remote service to get the Keras callbacks to the telegram including the details of metrics
-  deployed:  https://pypi.org/project/tensorgram/
-  github: https://github.com/ksdkamesh99/TensorGram
+- name: PR Visualizer
+  members: Hakeem, Alex, Abir
+  pageLink: https://devpost.com/software/pr-visualiser
+  date: Sprint 0
+  shortDescr: Use PR Visualiser to get an overview and manage github Pull Requests.
+  deployed:  https://prvisualiser2.azurewebsites.net
+  github: https://github.com/imabp/PR_Visualizer
   featured: yes
 
-- name: Tensorgram
-  members:
-  pageLink:
-  date: 29-10-2020
-  shortDescr: A real-time remote service to get the Keras callbacks to the telegram including the details of metrics
-  github: https://github.com/ksdkamesh99/TensorGram
+- name: Flutter_gitgraph
+  members: Apratim, Benyam, Sameer
+  pageLink: https://devpost.com/software/flutter_gitgraph
+  date: Sprint 0
+  shortDescr: A Flutter library to easily visualize shiny Git Graphs.
+  deployed:  https://pub.dev/packages/flutter_gitgraph
+  github: https://github.com/Sameerkash/flutter_gitgraph
   featured: yes
 
-  
-- name: Tensorgram
-  members:
-  pageLink:
-  date: 29-10-2020
-  shortDescr: A real-time remote service to get the Keras callbacks to the telegram including the details of metrics
-  github: https://github.com/ksdkamesh99/TensorGram
-  featured: yes
-  
-
-- name: Tensorgram
-  members:
-  pageLink:
-  date: 29-10-2020
-  shortDescr: A real-time remote service to get the Keras callbacks to the telegram including the details of metrics
-  github: https://github.com/ksdkamesh99/TensorGram
+- name: Broken link Extension
+  members: Atreya, Mayra, Amala
+  pageLink: https://devpost.com/software/broken-link-extension
+  date: Sprint 0
+  shortDescr: Broken link extension that sends owner an email with issues and potential fixes
+  github: https://github.com/MyrrhDev/Linker
   featured: yes
 
-  
-- name: Tensorgram
-  members:
-  pageLink:
-  date: 29-10-2020
-  shortDescr: A real-time remote service to get the Keras callbacks to the telegram including the details of metrics
-  github: https://github.com/ksdkamesh99/TensorGram
-  featured: yes
-  
-- name: Tensorgram
-  members:
-  pageLink:
-  date: 29-10-2020
-  shortDescr: A real-time remote service to get the Keras callbacks to the telegram including the details of metrics
-  github: https://github.com/ksdkamesh99/TensorGram
+- name: Todo++
+  members: Lucas, Sachin, Suhani
+  pageLink: https://devpost.com/software/todo-r4xzp7
+  date: Sprint 0
+  shortDescr: Todo plus the collaborative environment for software engineers inside the VSCode minus the distractions.
+  deployed:  https://marketplace.visualstudio.com/items?itemName=TeamSSL.todo-plus-plus
+  github: https://github.com/sachsom95/todo_plus
   featured: yes
 
-  
-- name: Tensorgram
-  members:
-  pageLink:
-  date: 29-10-2020
-  shortDescr: A real-time remote service to get the Keras callbacks to the telegram including the details of metrics
-  github: https://github.com/ksdkamesh99/TensorGram
+- name: TorchBlaze
+  members: Kamesh, Ama, Saumya
+  pageLink: https://devpost.com/software/torchblaze
+  date: Sprint 0
+  shortDescr: The only MLOps tool for PyTorch you'll ever need, from training to deployment!
+  deployed:  https://mlh-fellowship.github.io/torchblaze/
+  github: https://github.com/MLH-Fellowship/torchblaze
   featured: yes
 
-
-- name: Tensorgram
-  members:
-  pageLink:
-  date: 29-10-2020
-  shortDescr: A real-time remote service to get the Keras callbacks to the telegram including the details of metrics
-  github: https://github.com/ksdkamesh99/TensorGram
+- name: ACE
+  members: Suhani, Saumya, Atreya
+  pageLink: https://devpost.com/software/ace-kb2zjr
+  date: Sprint 1
+  shortDescr:  A smooth and accessible chess experience for EVERYONE!
+  deployed:  https://ace-chess.herokuapp.com/
+  github: https://github.com/MLH-Fellowship/ACE
   featured: yes
 
-  
-
+- name: PoseMan
+  members: Alex, Mayra, Sachin
+  pageLink: https://devpost.com/software/poseman
+  date: Sprint 1
+  shortDescr:  You're one stop to a fun stretch in between coding sessions!
+  deployed: https://poseman.netlify.app/
+  github: https://github.com/sachsom95/PoseMan
+  featured: yes
