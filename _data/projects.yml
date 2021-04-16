@@ -7,65 +7,65 @@
   github: https://github.com/ksdkamesh99/TensorGram
   featured: yes
 
-- name: Tensorgram
-  members:
-  pageLink:
-  date: 29-10-2020
-  shortDescr: A real-time remote service to get the Keras callbacks to the telegram including the details of metrics
-  github: https://github.com/ksdkamesh99/TensorGram
+- name: CryptoDrive
+  members: Abir, Sameer, Kamesh
+  pageLink: https://devpost.com/software/cryptodrive
+  date: Sprint 3
+  shortDescr: A decentralized, secure, and blockchain-based Storage and File Sharing Service.
+  github: https://github.com/MLH-Fellowship/CryptoDrive
   featured: yes
 
   
-- name: Tensorgram
-  members:
-  pageLink:
-  date: 29-10-2020
-  shortDescr: A real-time remote service to get the Keras callbacks to the telegram including the details of metrics
+- name: Chamber of Secrets
+  members: Aman, Suhani, Saumya
+  pageLink: https://devpost.com/software/chamber-of-secrets
+  date: Sprint 3
+  shortDescr: Digi-Locker redefined, inspired by Lord Voldermort.
   github: https://github.com/ksdkamesh99/TensorGram
   featured: yes
   
 
-- name: Tensorgram
-  members:
-  pageLink:
-  date: 29-10-2020
-  shortDescr: A real-time remote service to get the Keras callbacks to the telegram including the details of metrics
-  github: https://github.com/ksdkamesh99/TensorGram
+- name: Mailsafe
+  members: Apratim, Lucas, Sachin
+  pageLink: https://devpost.com/software/mailsafe
+  date: Sprint 3
+  shortDescr: Protect you emails from data breaches and reverse lookups
+  github: https://github.com/MLH-Sprint-2
   featured: yes
 
   
-- name: Tensorgram
-  members:
-  pageLink:
-  date: 29-10-2020
-  shortDescr: A real-time remote service to get the Keras callbacks to the telegram including the details of metrics
-  github: https://github.com/ksdkamesh99/TensorGram
+- name: GCNFT
+  members: Alex, Atreya, Amala
+  pageLink: https://devpost.com/software/gcnft
+  date: Sprint 3
+  shortDescr: Github Commit NFT Marketplace
+  github: https://github.com/wilkesalex/gcnft
   featured: yes
   
-- name: Tensorgram
-  members:
-  pageLink:
-  date: 29-10-2020
-  shortDescr: A real-time remote service to get the Keras callbacks to the telegram including the details of metrics
-  github: https://github.com/ksdkamesh99/TensorGram
+- name: Your Data - The Game
+  members: Mayra, Benyam, Hakeem
+  pageLink: https://devpost.com/software/data-the-game
+  date: Sprint 3
+  shortDescr: Do you know how your data gets played?
+  github: https://mlh-sprint-2.herokuapp.com/
   featured: yes
 
   
-- name: Tensorgram
-  members:
-  pageLink:
-  date: 29-10-2020
-  shortDescr: A real-time remote service to get the Keras callbacks to the telegram including the details of metrics
-  github: https://github.com/ksdkamesh99/TensorGram
+- name: FlappyBug
+  members: Amala, Benyam, Hakeem
+  pageLink: https://devpost.com/software/flappybug
+  date: Sprint 2
+  shortDescr: FlappyBug is a Multiplayer version of the classic FlappyBird Game.
+  github: https://github.com/amalaabraham/flappybug
   featured: yes
 
 
-- name: Tensorgram
-  members:
-  pageLink:
-  date: 29-10-2020
-  shortDescr: A real-time remote service to get the Keras callbacks to the telegram including the details of metrics
-  github: https://github.com/ksdkamesh99/TensorGram
+- name: Party Popper
+  members: Apratim, Sameer, Lucas
+  pageLink: https://devpost.com/software/party-popper
+  date: Sprint 2
+  shortDescr: A board-based party game
+  github: https://github.com/LucasLobo/Party-Popper
   featured: yes
 
   
